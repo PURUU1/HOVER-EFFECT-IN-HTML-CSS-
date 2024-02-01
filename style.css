@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.main{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  .img1{
+    background:url("wallpapersden.com_itachi-uchiha-manga-sitting-on-a-throne_ws.jpg");
+
+    background-repeat: no-repeat;
+    width:100px;
+    height:235px;
+    border:2px solid black;
+    border-radius: 25px;
+
+    transition: all;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    box-shadow: 5px 5px 10px purple;
+  }
+  .img2{
+    background:url("wallpapersden.com_naruto-5k-monochrome-art_ws.jpg");
+
+    background-repeat: no-repeat;
+    width:100px;
+    height:235px;
+    border:2px solid black;
+    border-radius: 25px;
+    transition: all;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+    box-shadow: 5px 5px 10px purple;
+  }
+  .img3{
+    background:url("wallpapersden.com_naruto-hidden-valley-adventure_ws.jpg");
+
+    background-repeat: no-repeat;
+    width:100px;
+    height:235px;
+    border:2px solid black;
+    border-radius: 25px;
+    transition: all;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+    box-shadow: 5px 5px 10px purple;
+  }
+.img1:hover{
+  width:320px;
+  border: 2px solid purple;
+  box-shadow:inset 5px 5px 10px purple;
+}
+  .img2:hover{
+    width:320px;
+    border: 2px solid purple;
+    box-shadow:inset 5px 5px 10px purple;
+  }
+  .img3:hover{
+    width:320px;
+    border: 2px solid purple;
+    box-shadow:inset 5px 5px 10px purple;
+  }
+  .t{
+    color: transparent;
+    font-size: 30px;
+    margin-left:20px;
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  }
